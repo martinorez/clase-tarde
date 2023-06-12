@@ -1,0 +1,58 @@
+.padre{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 550px 250px 150px;
+    grid-column-gap: 25px;
+    grid-row-gap: 35px;
+}
+
+.padre div{
+    width: 100%;
+    height: 100%;
+}
+
+.flexbox{
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    align-items: center;
+    margin: 5px;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.hijo1{
+    background: #ec9393;
+}
+.hijo2{
+    background: aqua;
+}
+.hijo3{
+    background: red;
+}
+.hijo4{
+    background: blue;
+    grid-column: 2/ 4;
+    grid-row: 1;
+}
+.hijo5{
+    background: violet;
+}
+.hijo6{
+    background: palegreen;
+}
+.hijo7{
+    background: pink;
+}
+.hijo8{
+    background: yellowgreen;
+}
+.hijo9{
+    background: skyblue;
+}
